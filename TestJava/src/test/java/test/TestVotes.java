@@ -13,11 +13,11 @@ import org.junit.Test;
 import querys.Votos;
 
 
-public class Tesft {
+public class TestVotes {
 	@Test
     public void getVotes() throws ParseException, IOException, JSONException {
 		List<String> votos = Votos.getVotos(8080);
-		Assert.assertTrue(votos.size()>90);
+		Assert.assertTrue(votos.size()>0);
 		for(String voto: votos){
 			Assert.assertNotNull(voto);
 			Assert.assertTrue(voto!="");
