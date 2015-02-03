@@ -17,6 +17,23 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
 # =========================
 # Operating System Files
 # =========================
