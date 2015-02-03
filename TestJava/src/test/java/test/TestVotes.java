@@ -17,7 +17,7 @@ public class TestVotes {
 	@Test
     public void getVotes() throws ParseException, IOException, JSONException {
 		List<String> votos = Votos.getVotos(8080);
-		Assert.assertTrue(votos.size()>0);
+		Assert.assertTrue(votos.size()>10);
 		for(String voto: votos){
 			Assert.assertNotNull(voto);
 			Assert.assertTrue(voto!="");
